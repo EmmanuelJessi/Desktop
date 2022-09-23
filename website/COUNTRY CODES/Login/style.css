@@ -1,0 +1,72 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form h1 {
+    text-align: center;
+    color: rgb(15, 2, 2);
+}
+
+form .input-option .input-details{
+    text-align: center;
+}
+
+form .input-option label {
+    margin-left: 25px;
+}
+
+form .input-option {
+    margin: 20px;
+}
+
+form .input-option .input-details select {
+    width: 52px;
+    height: 30px;
+}
+
+form .input-option .input-details input {
+    padding: 0 10px 0 10px;
+    width: 50%;
+    height: 25px;
+}
+
+form .input-option .input-details input[type='password']{
+    width: 70%;
+}
+
+form .input-btn {
+    margin: 20px;
+    text-align: center;
+}
+
+form .input-btn input {
+    width: 80%;
+    border: none;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: rgb(92, 89, 89);
+    cursor: pointer;
+}
+
+form .input-btn input:hover {
+    outline: 1px solid rgb(37, 37, 37);
+    background-color: rgb(51, 48, 48);
+}
+
+/*css validation*/
+form .input-option .input-details input:invalid {
+    border: 1px solid rgb(235, 6, 6);
+    outline: 0px solid rgb(235, 6, 6);
+}
+
+form .input-option .input-details input:valid{
+    border: 1px solid rgb(23, 110, 6);
+    outline: 0px solid rgb(23, 110, 6);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login | Form</title>
+</head>
+<body>
+    <div class="main">
+        <form action="/">
+            <h1>Login</h1>
+
+            <!--mobile number-->
+            <div class="input-option">
+                <label for="">Mobile Number</label>
+                <div class="input-details">
+                    <select name="code" id="">
+                        <option value="uganda">+256-UG</option>
+                        <option value="kenya">+255-KYA</option>
+                        <option value="south-sudan">+211-SSD</option>
+                        <option value="tanzania">+254-TZ</option>
+                        <option value="rwanda">+256-RW</option>
+                        <option value="drc">+256-DRC</option>
+                        <option value="burundi">+257-BUR</option>
+                    </select>
+                    <input type="text" required>
+                </div>   
+            </div>
+            
+            <!--password-->
+            <div class="input-option">
+                <label for="">Password</label>
+                <div class="input-details">
+                    <input type="password" required>
+                </div>
+                
+            </div>
+
+            <div class="input-btn">
+                <input type="submit" value="LOGIN">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

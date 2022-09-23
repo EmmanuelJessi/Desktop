@@ -1,0 +1,60 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+form.h2{
+    color: black;
+}
+.input-option{
+    text-align: left;
+}
+
+form .input-option {
+    margin: 20px;
+}
+
+form .input-option .input-details select {
+    width: 52px;
+    height: 20px;
+}
+
+
+form .input-option .input-details input {
+    padding: 0 8px 0 8px;
+    width: 44%;
+    height: 13px;
+}
+
+form .input-btn {
+    margin: 20px;
+    text-align: center;
+}
+
+form .input-btn input {
+    width: 70%;
+    border: none;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: black;
+    cursor: pointer;
+}
+
+form .input-btn input:hover {
+    outline: 1px solid black;
+    background-color: orange;
+}
+
+form.h3{
+    color: black;
+}
+
+
+

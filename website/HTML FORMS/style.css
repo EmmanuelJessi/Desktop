@@ -1,0 +1,10 @@
+.lable{
+    padding: 0%;
+    margin: auto;
+    background-color: aliceblue;
+    color: blue;
+}
+
+.input:hover{
+    background-color: orange;
+}
